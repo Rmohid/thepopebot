@@ -21,7 +21,7 @@ git config --global user.name "popebot"
 git config --global user.email "popebot@example.com"
 if [ -n "$GITHUB_TOKEN" ]; then
     git config --global credential.helper store
-    echo "https://${GITHUB_TOKEN}@github.com" > ~/.git-credentials
+    echo "https://x-access-token:${GITHUB_TOKEN}@github.com" > ~/.git-credentials
     chmod 600 ~/.git-credentials
 fi
 
