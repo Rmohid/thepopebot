@@ -1,1 +1,1 @@
-Read the file at operating_system/HEARTBEAT.md and complete the tasks described there.
+Check the current weather in Claremont, CA and save the weather information to a file called WEATHER.txt. Include current conditions, temperature, and any other relevant weather data. Use a weather API or service to get accurate, up-to-date information.
